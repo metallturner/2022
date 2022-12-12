@@ -23,6 +23,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth){
 
         //настраивает аутентификацию
-        auth.authenticationProvider(authProvider);
+        auth.authenticationProvider(authProvider).;
     }
 }
